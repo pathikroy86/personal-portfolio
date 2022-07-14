@@ -17,7 +17,7 @@ h1 {
     color: orange;
 }
 
-.intro {
+.half-width {
     width: 50%;
     padding-left: 3%;
 }
@@ -42,4 +42,37 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#experiences {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.extra-portion {
+    display: flex;
+    padding-left: 3%;
+}
+
+.box-shadow {
+    width: 40%;
+    box-shadow: 10px 10px 30px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+.text-color {
+    color: orange;
+}
+
+footer p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.623);
 }
