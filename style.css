@@ -23,14 +23,23 @@ h1 {
 }
 
 .intro img {
-    width: 70%;
+    width: 80%;
+    padding-top: 5px;
 }
 
 .hire {
     text-decoration: none;
-    background-image: linear-gradient(orange, orangered);
+    background-image: linear-gradient(rgba(255, 166, 0, 0.836), rgba(255, 68, 0, 0.815));
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: 700;
+}
+
+#dream-big {
+    display: flex;
+    padding-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
